@@ -1,0 +1,52 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-image: url(hog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0px;
+}
+
+.col {
+  font-family: "Lemonada", cursive;
+  border: 5px double;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 4em;
+  font-size: 2em;
+  color: brown;
+  /* font-weight: 700; */
+}
+
+.btn {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgb(209, 96, 96);
+  border: brown solid 0.1px;
+  border-width: 5px;
+  border-radius: 150px;
+  margin-top: 200px;
+  font-weight: 700;
+  color: brown;
+  font-size: 2em;
+  /* width: 350px;
+  margin-left: 20px;
+  margin-right: 20px; */
+}
+
+.btn:hover {
+  background-color: burlywood;
+  border-color: rgb(165, 100, 16);
+  border-width: 7px;
+  color: rgb(165, 100, 16);
+}
+
+.d-grid {
+  width: 300px;
+}
